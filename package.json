@@ -1,0 +1,21 @@
+{
+  "name": "Unidad03_APIRestII",
+  "version": "1.0.0",
+  "description": "Pryecto del API rest para el curso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pruebas",
+    "curso",
+    "API"
+  ],
+  "author": "Fredy Varon",
+  "license": "GNU",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.4"
+  }
+}

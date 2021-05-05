@@ -1,0 +1,40 @@
+POST http://localhost:7777/categoria/crear HTTP/1.1
+
+content-type: application/json
+{
+    "nombre": "ejemplo3"
+}
+
+
+PUT  http://localhost:7777/categoria/actualizar/608367de1de65e4220cc1d11 HTTP/1.1
+
+content-type: application/json
+{
+    "nombre": "unaCategoria Modificada vvvvvvv"
+}
+
+
+GET http://localhost:7777/categoria/consultarTodo HTTP/1.1
+
+
+DELETE  http://localhost:7777/categoria/borrar/608365f01502c839c43206da HTTP/1.1
+
+content-type: application/json
+{
+    "nombre": "unaCategoria Modificada"
+}
+
+
+
+
+POST http://localhost:7777/producto/crear HTTP/1.1
+
+content-type: application/json
+{
+    "nombre": "Producto 002",
+    "descripcion": "Este es el producto 0001",
+    "valor": 50000,
+    "stock":1,
+    "imagen":"./imagenes/foto001.jpg",
+    "idCategory":["608363381502c839c43206d9","608367de1de65e4220cc1d11"]
+}
